@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+img:hover{
+    border: 5px;
+    box-shadow: 0 0 15px ;
+
+}
+.bild{
+    width: 67%;
+    height: auto;
+    border-radius: 10%;
+}
+hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(134, 21, 134);
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    margin: 0;
+
+}
+footer{
+    background-color: rgb(134, 21, 134);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+h1, h2, p {
+    margin: 20px;
+    color: rgb(246, 249, 247);
+    text-align: center;
+}
+h3{ 
+    display: flex;
+    color: rgb(134, 21, 134);
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button{
+    display: flex;
+    background-color:rgb(43, 43, 138);
+    color:aliceblue;
+    padding: 11px;
+    width: 75px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv_text{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cv{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgba(31, 18, 103, 0.589);
+    cursor: pointer;
+
+}
+#all_broshor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+   
+}
+.img_broshor{
+    display: flex;
+    flex-direction: row;
+    border:6px solid rgb(134, 21, 134);
+    margin: 50px;
+    padding: 10px;  
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img_broshor h1 {
+    color:rgb(134, 21, 134)
+}
+.hottel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
