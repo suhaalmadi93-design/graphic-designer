@@ -133,7 +133,13 @@ button:hover{
     width: 100%;
 }
 @media (max-width:768px){
-    footer, {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img_broshor{
         display: flex;
         flex-direction: column;
         align-items: center;
