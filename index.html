@@ -18,6 +18,9 @@
     <h1 style="font-size: 60px;">Suha Almadi</h1>
     <p> webbutvecklare med fokus på frontend samt grafisk designer med 
         pedagogisk bakgrund</p>
+      
+     <h2 id="time">00:00:00</h2>
+
   </hero>
 
   <main>
@@ -152,4 +155,12 @@
 
 
 </body>
+    <script>
+    setInterval(() => {
+        document.getElementById('time').textContent =
+            new Date().toLocaleTimeString();
+    }, 1000);
+</script>
+
+    
 </html>
